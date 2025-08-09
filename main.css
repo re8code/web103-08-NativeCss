@@ -1,8 +1,12 @@
+:root {
+  --bgc-a-box: pink;
+  --bgc-b-box: orange;
+}
 .a {
   width: 300px; height: 200px;
-  background-color: lightgreen;
+  background-color: var(--bgc-a-box);
 }
 .b {
   width: 300px; height: 200px;
-  background-color: lightblue;
+  background-color: var(--bgc-b-box);
 }
