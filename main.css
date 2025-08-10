@@ -1,16 +1,16 @@
-:root {
-  --bgc-a-box: pink;
-}
-.a {
-  width: 300px; height: 100px;
-  background-color: var(--bgc-a-box);
-}
-.b {
-  --bgc-a-box: orange;
-  width: 300px; height: 100px;
-  background-color: var(--bgc-a-box);
-}
-.c {
-  width: 300px; height: 100px;
-  background-color: var(--bgc-a-box);
+#home {
+  width: 100%; height: 300px;
+  background-color: pink;
+
+  div {
+    width: 300px; height: 100px;
+    background-color: lightgreen;
+    border: 1px solid #bbb;
+    box-sizing: border-box;
+    
+    div {
+      width: 200px; height: 50px;
+      background-color: orange;
+    }
+  }
 }
